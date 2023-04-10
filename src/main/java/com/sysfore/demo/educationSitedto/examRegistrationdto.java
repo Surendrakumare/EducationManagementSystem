@@ -5,9 +5,9 @@ import java.sql.Date;
 import lombok.Data;
 
 @Data
-public class Resultdto {
-	
-	private int resultId;
+public class examRegistrationdto {
+
+	private int examId;
 	private String studentUSN;
 	private int semId;
 	private int subject1;
