@@ -1,13 +1,17 @@
 package com.sysfore.demo.educationSitedto;
 
-public class Resultdto {
+import lombok.Data;
+import nonapi.io.github.classgraph.json.Id;
 
-	int resultId;
-	String studentUSN;
-	int semId;
-	int subject1;
-	int subject2;
-	int subject3;
-	int subject4;
+@Data
+public class Resultdto {
+@Id
+	private int resultId;
+	private String studentUSN;
+	private int semId;
+	private int subject1;
+	private int subject2;
+	private int subject3;
+	private int subject4;
 	
 }
