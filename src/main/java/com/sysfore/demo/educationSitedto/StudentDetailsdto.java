@@ -20,8 +20,9 @@ public class StudentDetailsdto {
 	private String fatherPhoneNo;
 	private String bloodGroup;
 	private String address;
-	private Byte[] marksCard10th;
-	private Byte[] marksCard12th;
+	private byte[] photo;
+	private byte[] marksCard10th;
+	private byte[] marksCard12th;
 	private Boolean isActive;
 	private Boolean isDelete;
 	private int createdBy;

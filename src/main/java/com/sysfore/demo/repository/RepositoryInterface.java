@@ -1,5 +1,10 @@
 package com.sysfore.demo.repository;
 
-public class RepositoryInterface {
+import com.sysfore.demo.educationSitedto.StudentDetailsdto;
 
+import jakarta.validation.Valid;
+
+public interface RepositoryInterface {
+
+	public String addStudentDetail(@Valid StudentDetailsdto student); 
 }
