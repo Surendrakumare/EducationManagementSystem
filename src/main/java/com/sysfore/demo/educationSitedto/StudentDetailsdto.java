@@ -2,30 +2,33 @@ package com.sysfore.demo.educationSitedto;
 
 import java.sql.Date;
 
+import lombok.Data;
+
+@Data
 public class StudentDetailsdto {
 
-	String studentUSN;
-	String name;
-	String email;
-	String phoneNo;
-	Date dob;
-	String dept;
-	String section;
-	int joiningYear;
-	String fatherName;
-	String motherName;
-	String fatherPhoneNo;
-	String bloodGroup;
-	String address;
-	Byte[] marksCard10th;
-	Byte[] marksCard12th;
-	Boolean isActive;
-	Boolean isDelete;
-	int createdBy;
-	String CreatedByName;
-	Date CreatedOn;
-	int updatedBy;
-	String updatedByName;
-	Date updatedOn;
+	private String studentUSN;
+	private String name;
+	private String email;
+	private String phoneNo;
+	private Date dob;
+	private String dept;
+	private String section;
+	private int joiningYear;
+	private String fatherName;
+	private String motherName;
+	private String fatherPhoneNo;
+	private String bloodGroup;
+	private String address;
+	private Byte[] marksCard10th;
+	private Byte[] marksCard12th;
+	private Boolean isActive;
+	private Boolean isDelete;
+	private int createdBy;
+	private String CreatedByName;
+	private Date CreatedOn;
+	private int updatedBy;
+	private String updatedByName;
+	private Date updatedOn;
 	
 }

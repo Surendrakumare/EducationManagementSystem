@@ -1,5 +1,8 @@
 package com.sysfore.demo.educationSitedto;
 
+import lombok.Data;
+
+@Data
 public class Resultdto {
 
 	int resultId;
