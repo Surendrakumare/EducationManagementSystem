@@ -1,5 +1,10 @@
 package com.sysfore.demo.controller.service;
 
-public class EducationServies implements EducationInterface {
+import org.springframework.beans.factory.annotation.Autowired;
 
+import com.sysfore.demo.repository.RepositoryInterface;
+
+public class EducationServies implements EducationInterface {
+	@Autowired
+private RepositoryInterface repo;
 }
