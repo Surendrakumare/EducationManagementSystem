@@ -4,13 +4,13 @@ import lombok.Data;
 
 @Data
 public class Resultdto {
-
-	int resultId;
-	String studentUSN;
-	int semId;
-	int subject1;
-	int subject2;
-	int subject3;
-	int subject4;
+	
+	private int resultId;
+	private String studentUSN;
+	private int semId;
+	private int subject1;
+	private int subject2;
+	private int subject3;
+	private int subject4;
 	
 }
